@@ -5,5 +5,5 @@ provider:
 functions:
   nested:
     lang: node
-    handler: ./nested
+    handler: ./src/controllers/nested
     image: qolzam/nested:latest
